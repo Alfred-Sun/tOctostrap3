@@ -6,7 +6,6 @@ comments: true
 categories: octopress github
 ---
 
-{% img no-border pull-right /images/GitHub-Mark.png GitHub logo %}
 
 There is [a new "GitHub Page"]({{ root_url }}/github-page-example) kinda like
 the GitHub sidebar, but with more extensive informations.
