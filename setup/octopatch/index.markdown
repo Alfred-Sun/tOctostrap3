@@ -65,9 +65,6 @@ better to have theses plugins output the Bootstrap's `panel` classes so they
 can be style by your theme.  Here are two patches, the first is for the
 `code_block` plugin and the second for the `include_code` plugin.
 
-{% include_code code-block-with-bs-panel.patch %}
-{% include_code include-code-with-bs-panel.patch %}
-
 
 <h2>Use Bootstrap's labels for categories</h2>
 
@@ -89,7 +86,6 @@ the job. The patch will turn them into this:
 
 And here it is:
 
-{% include_code category-with-bs-label.patch %}
 
 <ul class="pager">
     <li class="previous"><a href="{{ root_url }}/setup/install">&laquo; Installation</a></li>
