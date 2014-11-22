@@ -17,6 +17,7 @@ modifications are needed to "untie" it from octopress).
 
 <!-- more -->
 
+
 If it suits you, the page's source (as all this blog's code) can be found
 [here][2]. In addition to Bootstrap3 & jQuery, you'll need `strftime.js`.
 
