@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://kAworu.github.io/octostrap3
-title: Octostrap3 demo
+url: http://alfred-sun.github.io/tOctostrap3
+title: TestOctostrap3 demo
 subtitle: Twitter Bootstrap theme for Octopress
 author: kAworu
 simple_search: https://www.google.com/search
@@ -16,7 +16,7 @@ description: Simple demo blog for octostrap3
 date_format: "%a %e %b %Y, %l:%M %p"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /octostrap3/atom.xml
+subscribe_rss: /tOctostrap3/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,7 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /octostrap3
+root: /tOctostrap3
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public/octopress
@@ -99,7 +99,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: octostrap3
+disqus_short_name: tOctostrap3
 disqus_show_comment_count: true
 
 # Google Analytics
