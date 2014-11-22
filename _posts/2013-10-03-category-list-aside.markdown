@@ -1,5 +1,6 @@
 ---
 layout: post
+bootstrap_theme_url: http://bootswatch.com/flatly/bootstrap.min.css
 title: "category list aside"
 date: 2013-10-03 23:27
 comments: true
