@@ -58,9 +58,7 @@ not patched:
 
 patched:
 
-{% codeblock fancy title lang:ruby %}
 10.times { print "Hello World !" }
-{% endcodeblock %}
 
 If you want to use another boostrap theme than the default theme, it would be
 better to have theses plugins output the Bootstrap's `panel` classes so they
