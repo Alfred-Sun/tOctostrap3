@@ -31,7 +31,6 @@ given page or post (this one is the mighty
 We will use a [front-matter variable](http://jekyllrb.com/docs/frontmatter/) to
 select the theme to use. First, adapt `source/_includes/custom/head.html`:
 
-{% codeblock source/_includes/custom/head.html %}
 <!-- ... -->
 {% raw %}
 {% if page.bootstrap_theme_url %}
@@ -42,12 +41,10 @@ select the theme to use. First, adapt `source/_includes/custom/head.html`:
 {% endif %}
 {% endraw %}
 <!-- ... -->
-{% endcodeblock %}
 
 Now, the Bootstrap theme will be choosen depending on
 `page.bootstrap_theme_url`. As an example, here is the front of this page:
 
-{% codeblock example front %}
 ---
 layout: post
 bootstrap_theme_url: http://bootswatch.com/flatly/bootstrap.min.css
@@ -55,4 +52,3 @@ title: "pick a theme for only one page"
 comments: true
 categories: octopress
 ---
-{% endcodeblock %}
